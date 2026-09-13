@@ -1,19 +1,39 @@
-# 🎭 Sentiment Analysis Dashboard
+# SentimentAnalytics-Dashboard
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-Active-success.svg)
 
-An interactive sentiment analysis dashboard powered by HuggingFace Transformers. Capable of analyzing individual texts and batch processing CSV files with rich interactive Plotly visualizations.
+## Description
+This project focuses on sentiment analysis. It aims to provide a robust, efficient, and scalable solution using modern technologies and best practices in the field.
 
-## Features
-- 📊 Interactive data visualizations (Plotly)
-- ☁️ Real-time Word Cloud generation
-- 📁 Batch analysis via CSV upload
-- 🤗 State-of-the-art transformer models
+## Key Features
+- High performance architecture
+- Extensible and modular design
+- Comprehensive data processing capabilities
+- Easy-to-use interface and quick setup
+
+## Tech Stack
+- HuggingFace\n- Plotly\n- Streamlit
 
 ## Quick Start
 ```bash
+git clone https://github.com/iMuneebK/SentimentAnalytics-Dashboard.git
+cd SentimentAnalytics-Dashboard
 pip install -r requirements.txt
-streamlit run app.py
+python main.py
 ```
+
+## Project Structure
+```
+SentimentAnalytics-Dashboard/
+├── data/
+├── models/
+├── src/
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+## License
+This project is licensed under the MIT License.
